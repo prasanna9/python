@@ -1,0 +1,7 @@
+import pyttsx3
+engine = pyttsx3.init()
+a = input("Enter Your Name = ")
+b = input("Enter your Surname = ")
+print("Full Name is = ", a , b)
+engine.say("What Is your name")
+engine.runAndWait()
